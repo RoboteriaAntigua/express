@@ -1,0 +1,10 @@
+body {
+    background-image: linear-gradient(to right, rgb(117, 12, 255), rgb(205, 169, 252));
+}
+
+.imagenes {
+    width: 400px;
+    box-shadow: 2px 2px 20px rgb(0, 255, 204);
+    margin-left:20%;
+    border-radius: 8px;  
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express validator</title>
+</head>
+<body>
+    <h1>Express validator</h1>
+
+    <form action="registrar" method="post">
+        nombre: <br>
+        <input type="text" name="nombre" placeholder="tunombre"><br>
+
+        email:  <br>
+        <input type="text" name="correo" placeholder="email@example.com"><br>
+
+        <input type="submit" value="registrar">
+    </form>
+
+         <% if (mensaje) { %>
+            <div><%= mensaje%></div>
+          <% } %>
+</body>
+</html>

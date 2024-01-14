@@ -1,0 +1,23 @@
+<%- include('plantillas/cabecera.ejs') %>
+    <form action="http://192.168.43.17:3000/devolucion-get" method="get">
+        <h1>Formulário de contacto</h1>
+        <p>
+            Nombre: <br/>
+            <input type="text" name="Nombre">
+        </p>
+
+        <p>
+            Email: <br/>
+            <input type="text" name="Email">
+        </p>
+
+        <p>
+            País de origen: <br/>
+            <input type="text" name="Pais">
+        </p>
+        <p>
+            <input type="submit" value="Enviar formulário">
+        </p>
+    </form>
+</body>
+</html>

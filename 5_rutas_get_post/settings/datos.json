@@ -1,0 +1,21 @@
+{
+    "objeto1":{
+        "name":"soy el bobjeto1",
+        "descripcion":"asi estamos"
+    },
+    "arreglo_de_objetos":[
+    {
+        "id":1,
+        "name":"tete",
+        "edad":31,
+        "ocupacion":"deseempleado"
+    },
+    {
+        "id":2,
+        "name": "ccc",
+        "edad":22,
+        "ocupacion":"free-labura"
+    }
+    
+]
+}
